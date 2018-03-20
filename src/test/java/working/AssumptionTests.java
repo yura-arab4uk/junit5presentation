@@ -1,19 +1,16 @@
 package working;
 
-import static org.junit.jupiter.api.Assumptions.assumeFalse;
-import static org.junit.jupiter.api.Assumptions.assumeTrue;
-import static org.junit.jupiter.api.Assumptions.assumingThat;
-
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.TestInstance;
 import testsupport.Affilliate;
 import testsupport.BuildTestCourses;
 import testsupport.Staff;
 import testsupport.Student;
 
+import static org.junit.jupiter.api.Assumptions.*;
+
 /*
- * Assumptions allow you to skip blocks of code or entire tests tests if the tested criteria is not met.
+ * Assumptions allow you to skip blocks of code or entire tests if the tested criteria is not met.
  */
 public class AssumptionTests {
 
